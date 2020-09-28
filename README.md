@@ -1,7 +1,7 @@
 # blazor-test
 Blazor Test
 
-![Deploy to GitHub Pages](https://github.com/AlexHedley/blazor-test/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+[![Deploy to GitHub Pages](https://github.com/AlexHedley/blazor-test/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://github.com/AlexHedley/blazor-test/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22)
 
 - [Site](https://alexhedley.github.io/blazor-test/)
 
