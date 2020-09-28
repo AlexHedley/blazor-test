@@ -10,4 +10,6 @@ Blazor Test
 Thanks to [@Swimburger](https://github.com/Swimburger) for the GitHub Action for deploying the app to GitHub Pages
 
 How to deploy ASP.NET Blazor WebAssembly to GitHub Pages
-https://swimburger.net/blog/dotnet/how-to-deploy-aspnet-blazor-webassembly-to-github-pages
+- https://swimburger.net/blog/dotnet/how-to-deploy-aspnet-blazor-webassembly-to-github-pages
+
+ - BlazorGitHubPagesDemo (https://github.com/Swimburger/BlazorGitHubPagesDemo)
