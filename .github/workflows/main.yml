@@ -4,6 +4,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
+    paths: src/**
+  pull_request:
+    branches: [ master ]
+    paths: src/**
 
 jobs:
   deploy-to-github-pages:
@@ -41,3 +45,9 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
         FOLDER: release/wwwroot
+    
+    #- name: Deploy to GitHub Pages
+    #  uses: peaceiris/actions-gh-pages@v3.6.1
+    #  with:
+    #    github_token: ${{ secrets.GITHUB_TOKEN }}
+    #    publish_dir: release/wwwroot
